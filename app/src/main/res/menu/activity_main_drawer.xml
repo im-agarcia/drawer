@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_item_one"
+            android:title="Profile"
+            />
+        <item
+            android:id="@+id/nav_item_two"
+            android:title="Buddies"
+            />
+        <item
+            android:id="@+id/nav_item_three"
+            android:title="Groups"
+            />
+        <item
+            android:id="@+id/nav_item_four"
+            android:title="Booking"
+            />
+    </group>
+
+    <item android:title="Let´s search!">
+        <menu>
+            <item
+                android:id="@+id/nav_item_five"
+                android:title="Search Buddies"
+                />
+            <item
+                android:id="@+id/nav_item_six"
+                android:title="Search Rooms"
+                />
+        </menu>
+    </item>
+
+</menu>
